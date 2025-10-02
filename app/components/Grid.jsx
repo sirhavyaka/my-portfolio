@@ -130,7 +130,7 @@ const SkillsGrid = () => {
             </div>
 
             {/* Skill name */}
-            <h3 className="text-lg font-semibold font-sans text-gray-300 text-center group-hover:text-fuchsia-950 transition-colors duration-300">
+            <h3 className="text-lg font-semibold font-sans text-gray-300 text-center group-hover:text-rose-500 transition-colors duration-300">
               {skill.name}
             </h3>
 

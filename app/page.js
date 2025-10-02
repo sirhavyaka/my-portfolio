@@ -43,7 +43,7 @@ const Home = () => {
          <div className=' mt-8 mb-10 h-0.5 w-60 bg-gradient-to-r from-fuchsia-500 to-blue-700'></div>
      <div className='text-5xl font-bold font-mono bg-gradient-to-r from-cyan-400 to-purple-600 bg-clip-text text-transparent mb-2.5 text-center '>My Hobbies</div>
      
-      <Card text="I am a petrolhead, a gamer, an otaku and a bibliophile. I also enjoy binging shows, bike-riding and volunteering during my free time." />
+      <Card text="I am a petrolhead, a gamer, an otaku and a bibliophile. I also enjoy binging shows, bike-riding and volunteering during my free time. Hit me up on my socials so that we can enjoy together!" />
       <Contact />
     </div>
   );
