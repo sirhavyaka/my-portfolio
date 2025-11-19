@@ -7,8 +7,8 @@ const Projects = (params) => {
   return (
     <>
       <div className="flex flex-col items-center content-center ">
-        <div className=' mt-8 mb-10 h-0.5 w-60 bg-gradient-to-r from-fuchsia-500 to-blue-700'></div>
-        <div className=' mt-2.5 text-5xl font-bold font-mono bg-gradient-to-r from-cyan-400 to-purple-600 bg-clip-text text-transparent mb-10 sm:mb-8 text-center '>My Projects</div>
+
+
         <div className="w-xs sm:h-50 sm:w-lg  border-3 shadow-stone-800 border-emerald-700   shadow-xl dark:text-blue-50 h-50 rounded-2xl transition-all duration-400 transform hover:-translate-y-2">
           <h3 className="ml-5 mt-2.5 text-3xl font-bold font-mono bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">
             {params.heading}
