@@ -8,7 +8,7 @@ const ResumeCard = (params) => {
     <>
       <div className="flex flex-col items-center content-center ">
         <div className=" mt-8 mb-10 h-0.5 w-60 bg-gradient-to-r from-fuchsia-500 to-blue-700"></div>
-        <div className="mt-2.5 text-5xl font-bold font-mono bg-gradient-to-r from-cyan-400 to-purple-600 bg-clip-text text-transparent mb-8 text-center ">
+        <div className="mt-2.5 text-5xl font-bold merry bg-gradient-to-r from-cyan-400 to-purple-600 bg-clip-text text-transparent mb-8 text-center ">
           Resume
         </div>
         <div className="h-55 w-xs dark:text-blue-50 sm:h-50 sm:w-lg   transition-all duration-400 transform hover:-translate-y-2 border-3 shadow-stone-800 border-emerald-700 shadow-xl rounded-2xl ">

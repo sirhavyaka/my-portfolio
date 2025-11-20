@@ -78,7 +78,7 @@ export default function Contact() {
   return (
     <div className="flex flex-col items-center content-center">
       <div className=" mt-10 mb-10 h-0.5 w-60 bg-gradient-to-r from-fuchsia-500 to-blue-700"></div>
-      <div className=' mt-2.5 text-5xl font-bold font-mono bg-gradient-to-r from-cyan-400 to-purple-600 bg-clip-text text-transparent mb-8 text-center '>Contact me</div>
+      <div className=' mt-2.5 text-5xl font-bold merry bg-gradient-to-r from-cyan-400 to-purple-600 bg-clip-text text-transparent mb-8 text-center '>Contact me</div>
      <motion.div className="flex justify-center items-center gap-1.5 sm:gap-3 mb-12" animate={{translateY:3,scale:1.1}}>
           {socialIcons.map((social) => (
             <a

@@ -112,7 +112,7 @@ const SkillsGrid = () => {
   return (
     <div className="w-full max-w-4xl mx-auto p-6">
       
-      <h2 className="text-5xl font-bold font-mono bg-gradient-to-r from-cyan-400 to-purple-600 bg-clip-text text-transparent mb-8 text-center">
+      <h2 className="text-5xl font-bold merry bg-gradient-to-r from-cyan-400 to-purple-600 bg-clip-text text-transparent mb-8 text-center">
         Technical Skills
       </h2>
 
