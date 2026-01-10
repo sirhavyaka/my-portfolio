@@ -8,7 +8,7 @@ const Card = (params) => {
   return (
     <>
       <div className="transition-all duration-500 transform hover:-translate-y-2">
-        <div className="border-3 shadow-stone-800 border-emerald-700 h-50   shadow-xl w-xs sm:h-50 sm:w-lg rounded-2xl ">
+        <div className="border-b-3 border-t-emerald-700 border-t-3 border-b-emerald-700 h-50  w-xs sm:h-50 sm:w-lg ">
           <h3 className=" flex flex-col items-center ml-5 sm:mt-2.5 text-2xl sm:text-3xl font-bold font-mono bg-gradient-to-r from-cyan-400 to-purple-600 bg-clip-text text-transparent">
             {params.heading}
           </h3>
