@@ -46,6 +46,11 @@ const Home = () => {
         heading="Havya Kaavya"
         links="https://havyakaavya.vercel.app"
       />
+      <Projects
+        text="A clone of Airbnb with slight improvements, built for Scaler AI Labs' internship selection process."
+        heading="Airbnb clone"
+        links="https://chyavan-airbnb-clone.vercel.app"
+      />
       <ResumeCard
         links="/Chyavan_resume.pdf"
         text="Download my resume to learn more about my technical experience and skills!"
