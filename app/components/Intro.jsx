@@ -47,7 +47,7 @@ const Intro = (params) => {
     </motion.span>
   ))}
 </motion.h1>
-<div className="flex items-center justify-center gap-4 sm:gap-1 w-xs sm:h-70 sm:w-3xl transition-all duration-400 transform hover:-translate-y-2 flex-col sm:flex-row text-center border-b-3 border-t-emerald-700 border-t-3 border-b-emerald-700 mt-10 h-135">
+<div className="flex items-center justify-center gap-4 sm:gap-1 w-xs sm:h-70 sm:w-3xl transition-all duration-400 transform hover:-translate-y-2 flex-col sm:flex-row text-center border-3 border-emerald-700 rounded-2xl mt-10 h-135">
 
 <Image className=" flex w-60 h-60 items-center justify-center content-center ml-0.5 sm:h-50 sm:w-60 rounded-lg cursor-none" src={params.imgurl} alt={params.alt} height={params.imght} width={params.imgwth}/>
           <p className="ml-5 merry text-lg flex flex-col items-start text-left">{params.text}</p>

@@ -36,6 +36,16 @@ const Home = () => {
       <div className=" mt-2.5 text-5xl font-bold merry pb-5 bg-gradient-to-r from-cyan-400 to-purple-600 bg-clip-text text-transparent mb-3  text-center ">
         My Projects
       </div>
+        <Projects
+        text="An AI-powered business intelligence platform that answers queries using live Monday.com workspace data fetched via MCP. "
+        heading="Monday.com BI Agent using MCP"
+        links="https://ai-agent-project-theta.vercel.app"
+      />
+      <Projects
+        text="A clone of Airbnb with slight improvements, built for Scaler AI Labs' internship selection process."
+        heading="Airbnb clone"
+        links="https://chyavan-airbnb-clone.vercel.app"
+      />
       <Projects
         text="A quick and easy way to shorten your links, created using NextJS and MongoDB. Try it now!"
         heading="Appehuli Links"
@@ -46,11 +56,8 @@ const Home = () => {
         heading="Havya Kaavya"
         links="https://havyakaavya.vercel.app"
       />
-      <Projects
-        text="A clone of Airbnb with slight improvements, built for Scaler AI Labs' internship selection process."
-        heading="Airbnb clone"
-        links="https://chyavan-airbnb-clone.vercel.app"
-      />
+      
+      
       <ResumeCard
         links="/Chyavan_resume.pdf"
         text="Download my resume to learn more about my technical experience and skills!"

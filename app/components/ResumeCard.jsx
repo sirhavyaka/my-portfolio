@@ -11,7 +11,7 @@ const ResumeCard = (params) => {
         <div className="mt-2.5 text-5xl font-bold merry bg-gradient-to-r from-cyan-400 to-purple-600 bg-clip-text text-transparent mb-8 text-center ">
           Resume
         </div>
-        <div className="h-55 w-xs dark:text-blue-50 sm:h-50 sm:w-lg   transition-all duration-400 transform hover:-translate-y-2 border-b-3 border-t-emerald-700 border-t-3 border-b-emerald-700">
+        <div className="h-55 w-xs dark:text-blue-50 sm:h-50 sm:w-lg   transition-all duration-400 transform hover:-translate-y-2 border-3 border-emerald-700 rounded-2xl">
           <h3 className="ml-5 mt-2.5 text-3xl font-bold font-mono bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">
             {params.heading}
           </h3>
